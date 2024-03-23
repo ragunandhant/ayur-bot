@@ -1,0 +1,67 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Resource",
+    "dateExported": "2023-10-02T13:22:17.712Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "200a6964-c123-4cf1-a15b-b4f3d3661a86",
+            "colId": "dde1cbcb-df38-4f82-a9c2-c25367843ac6",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:8000/resource/delete?id=a9d3f86c-62f3-47f6-8b6a-9b26f6268fca",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-08-13T12:27:40.112Z",
+            "modified": "2023-09-16T09:35:52.116Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "a9d3f86c-62f3-47f6-8b6a-9b26f6268fca",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3fe7b48d-2d18-4c52-bac2-cb4e22fbbf0f",
+            "colId": "dde1cbcb-df38-4f82-a9c2-c25367843ac6",
+            "containerId": "",
+            "name": "create",
+            "url": "http://localhost:8000/feedBack",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-13T12:35:40.114Z",
+            "modified": "2023-10-02T13:20:53.489Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"userName\": \"John Doe\",\r\n  \"department\": \"HR\",\r\n  \"contactNumber\": \"1234567890\",\r\n  \"feedBack\": \"This is the feedback text.\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f97cb1c2-91b1-4bde-bad5-d689cbcf413a",
+            "colId": "dde1cbcb-df38-4f82-a9c2-c25367843ac6",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:8000/feedBack",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-08-13T15:26:49.302Z",
+            "modified": "2023-10-02T13:21:59.370Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

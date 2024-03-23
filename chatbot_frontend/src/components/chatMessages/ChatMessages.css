@@ -1,0 +1,40 @@
+*{
+    font-size: 18px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.msg{
+    display: flex;
+    /* align-items: center; */
+    margin:5px;
+    gap:10px;
+    color:black;
+    
+    width:fit-content;
+    padding:7px 10px;
+}
+.left{
+    background-color: #a8b99b;
+    align-self: flex-start;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top: 5px solid #a8b99b;
+    border-left: 5px solid #435334;
+}
+.right{
+    background-color: #C8E4B2;
+    border-top: 5px solid #C8E4B2;
+    align-self: flex-end;
+    border-radius: 10px;
+    border-right: 5px solid #435334;
+    border-top-right-radius: 0px;
+}
+.msgBox{
+    display:flex;
+    flex-direction: column;
+   
+    /* background-color: bisque; */
+    width:100%;
+}
+
+
+
